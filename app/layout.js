@@ -9,6 +9,20 @@ export const metadata = {
     title: "Bono - Home Assignment",
     description:
         "Bono is the easiest way to donate to causes you care about and see your impact.",
+    openGraph: {
+        title: "Bono - Home Assignment",
+        description:
+            "Bono is the easiest way to donate to causes you care about and see your impact.",
+        siteName: "Bono",
+        images: [
+            {
+                url: "http://localhost:3000/images/main_bono_logo.png",
+                alt: "Bono Logo",
+            },
+        ],
+        locale: "en_US",
+        type: "website",
+    },
 };
 
 export default function RootLayout({ children }) {
