@@ -29,3 +29,6 @@ npm run dev
 ## View the Project
 
 Open your browser and navigate to http://localhost:3000 to see the project running.
+
+### Contact
+For any questions or issues, please contact Ilona Skargovskaya at ilona.skars@gmail.com
