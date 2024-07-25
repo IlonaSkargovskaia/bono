@@ -223,7 +223,7 @@ ul {
 }
 
 .cause-item.selected .icon-container {
-  background-color: var(--primary);
+  background-color: var(--accent);
   color: #fff;
 }
 
@@ -428,10 +428,15 @@ ul {
   }
 
   .cause-details {
-    padding: 20px;
-    align-items: center;
+    padding: 20px 0 30px 30px;
     border: none;
     min-height: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    text-align: left;
   }
 }
 

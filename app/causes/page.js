@@ -143,8 +143,10 @@ const Causes = () => {
                                 height={80}
                                 priority
                             />
+                            <div>
                             <h3>{currentCause.title}</h3>
                             <p>{currentCause.description}</p>
+                            </div>
                         </div>
                     </div>
                 )}
