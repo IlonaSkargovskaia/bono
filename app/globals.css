@@ -250,7 +250,9 @@ ul {
   padding-top: 100px;
 }
 
-
+.cause-details h3{
+  text-align: left;
+}
 
 .cause-details img {
   object-fit: contain;
@@ -438,6 +440,8 @@ ul {
     gap: 20px;
     text-align: left;
   }
+
+
 }
 
 @media screen and (max-width: 650px) {
@@ -508,6 +512,8 @@ ul {
     border: none;
     min-height: auto;
   }
+
+  
 
   .progress-block {
     position: fixed;
